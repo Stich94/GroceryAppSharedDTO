@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct GroceryItemResponseDTO {
+public struct GroceryItemResponseDTO: Codable {
     
     // this will be sent to the Client
     public let id: UUID // this is not in the request
